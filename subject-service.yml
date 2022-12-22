@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/subject-service
