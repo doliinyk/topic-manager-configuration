@@ -7,4 +7,4 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:postgresql://localhost:5432/topic_service
+    url: jdbc:postgresql://localhost:5432/topic_manager
