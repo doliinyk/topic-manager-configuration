@@ -7,4 +7,4 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-        url: jdbc:postgresql://${POSTGRES_HOST:localhost}:${POSGTRES_PORT:5432}/${POSTGRES_DB:student_service}
+      url: jdbc:postgresql://${POSTGRES_HOST:localhost}:${POSGTRES_PORT:5432}/${POSTGRES_DB:student_service}
