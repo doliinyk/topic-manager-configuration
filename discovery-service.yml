@@ -2,6 +2,8 @@ server:
   port: 8761
 
 eureka:
+  instance:
+    hostname: discovery-service
   client:
     register-with-eureka: false
     fetch-registry: false
